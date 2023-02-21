@@ -23,8 +23,8 @@ set <- function(y) {
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
 t <- x$getinverse()
-if (!is.null(t)
-{
+if (!is.null(t){
+	
 	return (t)
 	}
 	t <- solve (x$get())
